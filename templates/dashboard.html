@@ -1,0 +1,9 @@
+{% extends "base.html" %} {% block content %}
+<h2>Dashboard</h2>
+<a href="{{ url_for('add_password') }}" class="btn btn-success my-2"
+  >Add New Password</a
+>
+<a href="{{ url_for('view_passwords') }}" class="btn btn-info my-2"
+  >View Saved Passwords</a
+>
+{% endblock %}
